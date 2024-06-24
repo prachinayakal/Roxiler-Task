@@ -11,7 +11,7 @@ This project implements a frontend application for displaying transaction data f
 
 Before running this project locally, ensure you have the following installed:
 
-- Node.js (v14.0.0 or higher)
+- Node.js (v20.10.0 or lower)
 - npm (v6.0.0 or higher)
 - Git
 
