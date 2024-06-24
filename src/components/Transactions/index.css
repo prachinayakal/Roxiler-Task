@@ -1,0 +1,143 @@
+/* index.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: #d8eaf0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.first-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.first-container h3 {
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 10px;
+}
+
+.second-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-element {
+  outline: none;
+  background-color: #f0b762;
+  color: black;
+  border-radius: 15px;
+  height: 40px;
+  width: 45%;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #d8eaf0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-list {
+  outline: none;
+  background-color: #f0b762;
+  color: black;
+  border-radius: 15px;
+  height: 40px;
+  width: 30%;
+  cursor: pointer;
+  border: 1px solid #d8eaf0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 0 10px;
+}
+
+.selector-element {
+  background-color: rgb(147, 165, 42);
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 0.5px solid black;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0b762;
+  color: white;
+  text-transform: uppercase;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.last-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.next-button, .previous-button {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #333;
+}
+
+.product-image {
+  background-color: transparent;
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.line hr {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+  width: 100%;
+}
+
+.statistics-container {
+  width: 100%;
+  margin-top: 20px;
+}
