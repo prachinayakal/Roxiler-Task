@@ -4,9 +4,8 @@ This project implements a frontend application for displaying transaction data f
 
 ## Screenshots
 
-![Transactions Table](./path/to/transactions_table.png)
-![Transactions Statistics](./path/to/transactions_statistics.png)
-![Transactions Bar Chart](./path/to/transactions_bar_chart.png)
+![Roxiler](https://github.com/prachinayakal/Roxiler-Task/assets/121372605/5b94d457-fa7c-494a-a1be-5c859c84a6b1)
+
 
 ## Prerequisites
 
